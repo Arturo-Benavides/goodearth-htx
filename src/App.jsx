@@ -182,9 +182,9 @@ export default function GoodEarthHTX() {
                     </div>
                     <dl className="grid grid-cols-3 gap-6 self-start" data-aos="fade-up" data-aos-delay="100">
                         {[
-                            { label: "Volunteers", value: "1,200+" },
-                            { label: "Trash Removed", value: "85k lbs" },
-                            { label: "Meals Served", value: "40k+" },
+                            { label: "Volunteers", value: "200+" },
+                            { label: "Trash Removed", value: "35k lbs" },
+                            { label: "Meals Served", value: "10k+" },
                         ].map((s) => (
                             <div key={s.label} className="text-center">
                                 <dd className="text-2xl font-extrabold">{s.value}</dd>
